@@ -3,7 +3,8 @@ Package.describe({
   version: '0.2.2',
   summary: 'Sexy SSL support for Meteor',
   documentation: 'README.md',
-  git: 'https://github.com/nourharidy/meteor-ssl.git'
+  git: 'https://github.com/nourharidy/meteor-ssl.git',
+  debugOnly: true
 });
 
 Package.onUse(function(api) {
